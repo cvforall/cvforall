@@ -5,13 +5,12 @@ with open("README.md", "r") as readme_file:
   readme = readme_file.read()
 
 requirements = [
-  "opencv-python==4.6.0.66",
-  "numpy==1.23.4"
+  "opencv-python==4.6.0.66"
 ]
 
 setup(
   name="cvforall",
-  version="0.0.1",
+  version="0.0.2",
   author="Sergei Svechnikov",
   author_email="srgcandle@gmail.com",
   description="Collection of methods to facilitate work on computer vision projects",
